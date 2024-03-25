@@ -8,6 +8,8 @@ Intended to be ran on a Cloudlab server that is pre-installed with KVM, Docker, 
 
 Start a new Cloudlab server using a VM image that contains KVM, Docker, and phoronix-test-suite.
 
+*Note: Be sure to login to your own docker profile before executing this script*
+
 1. Clone this repository
 ```bash
 git clone https://github.com/jalvarez1492/virtualization-benchmarking.git
