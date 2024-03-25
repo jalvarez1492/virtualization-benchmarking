@@ -21,4 +21,7 @@ git clone https://github.com/jalvarez1492/virtualization-benchmarking.git
 
 ## Usage
 
-TODO
+### Run the docker container with interactive shell
+```bash
+docker run -it jalvarez1492/phoronix-test-suite-v2 bash
+```
