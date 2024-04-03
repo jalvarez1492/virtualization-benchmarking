@@ -1,0 +1,37 @@
+    Build: defconfig:
+        60.159
+        58.191
+        58.201
+
+    Average: 58.850 Seconds
+    Deviation: 1.93%
+
+    Comparison of 211 OpenBenchmarking.org samples since 14 March; median result: 90.51 Seconds. Box plot of samples:
+    [                                       |-------------------------------------------------------*--*----*#*#*]
+                                                                          This Result (61st Percentile): 58.850 ^
+                                                                                  Intel Xeon Silver 4216: 129 ^
+                                                                                   Intel Core i7-5960X: 208 ^
+                                                                           Intel Xeon Silver 4112: 388 ^
+                                                                          Intel Core i7-1065G7: 497 ^
+
+    Do you want to view the text results of the testing (Y/n): Y
+docker-lkb
+Docker testing on Ubuntu 20.04.4 LTS via the Phoronix Test Suite.
+
+
+AMD EPYC 7452 32-Core:
+
+        Processor: AMD EPYC 7452 32-Core (32 Cores / 64 Threads), Motherboard: Dell 04F3CJ (2.0.3 BIOS), Memory: 128GB, Disk: 2 x 480GB MZ7KH480HAHQ0D3, Graphics: mgadrmfb
+
+        OS: Ubuntu 20.04.4 LTS, Kernel: 4.15.0-142-generic (x86_64), Compiler: GCC 9.4.0, File-System: overlayfs, Screen Resolution: 1024x768, System Layer: Docker
+
+
+    Timed Linux Kernel Compilation 6.8
+    Build: defconfig
+    Seconds < Lower Is Better
+    AMD EPYC 7452 32-Core . 58.85 |===============================================================================
+
+    Would you like to upload the results to OpenBenchmarking.org (y/n): y
+    Would you like to attach the system logs (lspci, dmesg, lsusb, etc) to the test result (y/n): y
+
+    Results Uploaded To: https://openbenchmarking.org/result/2404031-NE-DOCKERLKB93
