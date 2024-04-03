@@ -1,0 +1,180 @@
+#####
+AMD EPYC 7452 32-Core - Run 1
+2024-04-03 20:58:09
+#####
+
+ NAS Parallel Benchmarks 3.4 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592  (class C)
+ Total number of processes:                       32
+
+EP Benchmark Results:
+
+CPU Time =    5.0103
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927995392D+04   -8.084072988043656D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                     5.01
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1714.44
+ Mop/s/process   =                    53.58
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    FMPI_INC     = -I/usr/include/
+    FFLAGS       = -O3 -march=native
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+#####
+AMD EPYC 7452 32-Core - Run 2
+2024-04-03 20:58:18
+#####
+
+ NAS Parallel Benchmarks 3.4 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592  (class C)
+ Total number of processes:                       32
+
+EP Benchmark Results:
+
+CPU Time =    4.9975
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927995392D+04   -8.084072988043656D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                     5.00
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1718.85
+ Mop/s/process   =                    53.71
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    FMPI_INC     = -I/usr/include/
+    FFLAGS       = -O3 -march=native
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+#####
+AMD EPYC 7452 32-Core - Run 3
+2024-04-03 20:58:26
+#####
+
+ NAS Parallel Benchmarks 3.4 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592  (class C)
+ Total number of processes:                       32
+
+EP Benchmark Results:
+
+CPU Time =    4.9937
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927995392D+04   -8.084072988043656D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                     4.99
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1720.15
+ Mop/s/process   =                    53.75
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    FMPI_INC     = -I/usr/include/
+    FFLAGS       = -O3 -march=native
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+

@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.3-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>docker-npb</Title>
+    <LastModified>2024-04-03 21:10:42</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.3</TestClient>
+    <Description>Docker testing on Ubuntu 20.04.4 LTS via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>AMD EPYC 7452 32-Core</Identifier>
+    <Hardware>Processor: AMD EPYC 7452 32-Core (32 Cores / 64 Threads), Motherboard: Dell 04F3CJ (2.0.3 BIOS), Memory: 128GB, Disk: 2 x 480GB MZ7KH480HAHQ0D3, Graphics: mgadrmfb</Hardware>
+    <Software>OS: Ubuntu 20.04.4 LTS, Kernel: 4.15.0-142-generic (x86_64), Compiler: GCC 9.4.0, File-System: overlayfs, Screen Resolution: 1024x768, System Layer: Docker</Software>
+    <User>root</User>
+    <TimeStamp>2024-04-03 20:54:50</TimeStamp>
+    <TestClientVersion>10.8.3</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none=\/build\/gcc-9-9QDOt0\/gcc-9-9.4.0\/debian\/tmp-nvptx\/usr,hsa --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib=auto --with-tune=generic --without-cuda-driver -v","cpu-microcode":"0x830104d","kernel-extra-details":"Transparent Huge Pages: madvise","security":"itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Full AMD retpoline IBPB: conditional IBRS_FW STIBP: conditional RSB filling + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>bt.C</Arguments>
+    <Description>Test / Class: BT.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>73662.55</Value>
+        <RawString>73708.28:73773.5:73505.88</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"39.69:39.65:39.79"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>cg.C</Arguments>
+    <Description>Test / Class: CG.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>14524.44</Value>
+        <RawString>14516.55:14507:14549.78</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"10.68:10.71:10.71"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>ep.C</Arguments>
+    <Description>Test / Class: EP.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>1717.81</Value>
+        <RawString>1714.44:1718.85:1720.15</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"5.43:5.43:5.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>ep.D</Arguments>
+    <Description>Test / Class: EP.D</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>1699.05</Value>
+        <RawString>1702.6:1697.82:1696.72</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"81.13:81.38:81.45"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>ft.C</Arguments>
+    <Description>Test / Class: FT.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>46531.68</Value>
+        <RawString>46634.78:46472.81:46487.45</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"9.65:9.76:9.75"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>is.D</Arguments>
+    <Description>Test / Class: IS.D</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>1581.56</Value>
+        <RawString>1589.66:1567.55:1587.48</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"26.83:27.11:26.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>lu.C</Arguments>
+    <Description>Test / Class: LU.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>78285.22</Value>
+        <RawString>78362.78:78635.1:77857.78</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"26.81:26.75:26.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>mg.C</Arguments>
+    <Description>Test / Class: MG.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>43490.08</Value>
+        <RawString>43342.02:43558.77:43569.45</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"4.57:4.56:4.57"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>sp.B</Arguments>
+    <Description>Test / Class: SP.B</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>43301.62</Value>
+        <RawString>43206.92:43097.49:43600.46</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"8.70:8.72:8.63"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>sp.C</Arguments>
+    <Description>Test / Class: SP.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC 7452 32-Core</Identifier>
+        <Value>33001.30</Value>
+        <RawString>33232.95:32993.18:32777.78</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 4.0.3","test-run-times":"44.33:44.64:44.92"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

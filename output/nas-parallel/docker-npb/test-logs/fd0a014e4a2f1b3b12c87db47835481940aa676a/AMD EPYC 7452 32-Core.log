@@ -1,0 +1,165 @@
+#####
+AMD EPYC 7452 32-Core - Run 1
+2024-04-03 21:04:14
+#####
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  2147483648  (class D)
+ Iterations:   10
+ Total number of processes:  32
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        D
+ Size            =               2147483648
+ Iterations      =                       10
+ Time in seconds =                    13.51
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1589.66
+ Mop/s/process   =                    49.68
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPICC        = /usr/bin/mpicc.openmpi
+    CLINK        = /usr/bin/mpicc.openmpi
+    CMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    CMPI_INC     = -I/usr/include/
+    CFLAGS       = -O3 -march=native
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+#####
+AMD EPYC 7452 32-Core - Run 2
+2024-04-03 21:04:46
+#####
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  2147483648  (class D)
+ Iterations:   10
+ Total number of processes:  32
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        D
+ Size            =               2147483648
+ Iterations      =                       10
+ Time in seconds =                    13.70
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1567.55
+ Mop/s/process   =                    48.99
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPICC        = /usr/bin/mpicc.openmpi
+    CLINK        = /usr/bin/mpicc.openmpi
+    CMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    CMPI_INC     = -I/usr/include/
+    CFLAGS       = -O3 -march=native
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+#####
+AMD EPYC 7452 32-Core - Run 3
+2024-04-03 21:05:15
+#####
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  2147483648  (class D)
+ Iterations:   10
+ Total number of processes:  32
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        D
+ Size            =               2147483648
+ Iterations      =                       10
+ Time in seconds =                    13.53
+ Total processes =                       32
+ Active processes=                       32
+ Mop/s total     =                  1587.48
+ Mop/s/process   =                    49.61
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              03 Apr 2024
+
+ Compile options:
+    MPICC        = /usr/bin/mpicc.openmpi
+    CLINK        = /usr/bin/mpicc.openmpi
+    CMPI_LIB     = -L/usr/lib/x86_64-linux-gnu/libmpi.so
+    CMPI_INC     = -I/usr/include/
+    CFLAGS       = -O3 -march=native
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
