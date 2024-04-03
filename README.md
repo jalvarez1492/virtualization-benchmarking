@@ -27,4 +27,7 @@ docker run -it \
   --mount type=bind,source=.,target=/cloudlab \
   phoronix/pts bash
 ```
-
+### Start a bash console in the VM
+```bash
+virsh console testkvm
+```
