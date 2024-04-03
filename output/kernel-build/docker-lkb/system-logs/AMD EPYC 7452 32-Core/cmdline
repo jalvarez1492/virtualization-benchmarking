@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.15.0-142-generic root=UUID=5fac4c69-51f6-47af-9773-a0d722426942 emulabcnet=b0:26:28:74:95:d0 ro console=ttyS1,115200
