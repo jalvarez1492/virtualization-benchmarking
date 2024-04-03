@@ -25,6 +25,6 @@ git clone https://github.com/jalvarez1492/virtualization-benchmarking.git
 ```bash
 docker run -it \
   --mount type=bind,source=.,target=/cloudlab \
-  jalvarez1492/phoronix-test-suite-v2 bash
+  phoronix/pts bash
 ```
 
