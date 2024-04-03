@@ -2,6 +2,7 @@
 
 echo "Initalizing Docker container ... "
 
+sudo root
 
 sudo groupadd -f docker
 sudo usermod -a -G docker $USER
