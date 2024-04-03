@@ -1,0 +1,78 @@
+#####
+AMD EPYC 7452 32-Core - Run 1
+2024-04-03 21:19:32
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 64
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 64 CPUs
+Compressing data...
+Completed: 1%             Completed: 3%             Completed: 4%             Completed: 6%             Completed: 7%             Completed: 9%             Completed: 10%             Completed: 12%             Completed: 14%             Completed: 15%             Completed: 17%             Completed: 18%             Completed: 20%             Completed: 21%             Completed: 23%             Completed: 25%             Completed: 26%             Completed: 28%             Completed: 29%             Completed: 31%             Completed: 32%             Completed: 34%             Completed: 35%             Completed: 37%             Completed: 39%             Completed: 40%             Completed: 42%             Completed: 43%             Completed: 45%             Completed: 46%             Completed: 48%             Completed: 50%             Completed: 51%             Completed: 53%             Completed: 54%             Completed: 56%             Completed: 57%             Completed: 59%             Completed: 60%             Completed: 62%             Completed: 64%             Completed: 65%             Completed: 67%             Completed: 68%             Completed: 70%             Completed: 71%             Completed: 73%             Completed: 75%             Completed: 76%             Completed: 78%             Completed: 79%             Completed: 81%             Completed: 82%             Completed: 84%             Completed: 85%             Completed: 87%             Completed: 89%             Completed: 90%             Completed: 92%             Completed: 93%             Completed: 95%             Completed: 96%             Completed: 98%             Completed: 100%                 Output Size: 728090428 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 4.087996 seconds
+
+#####
+AMD EPYC 7452 32-Core - Run 2
+2024-04-03 21:19:40
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 64
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 64 CPUs
+Compressing data...
+Completed: 1%             Completed: 3%             Completed: 4%             Completed: 6%             Completed: 7%             Completed: 9%             Completed: 10%             Completed: 12%             Completed: 14%             Completed: 15%             Completed: 17%             Completed: 18%             Completed: 20%             Completed: 21%             Completed: 23%             Completed: 25%             Completed: 26%             Completed: 28%             Completed: 29%             Completed: 31%             Completed: 32%             Completed: 34%             Completed: 35%             Completed: 37%             Completed: 39%             Completed: 40%             Completed: 42%             Completed: 43%             Completed: 45%             Completed: 46%             Completed: 48%             Completed: 50%             Completed: 51%             Completed: 53%             Completed: 54%             Completed: 56%             Completed: 57%             Completed: 59%             Completed: 60%             Completed: 62%             Completed: 64%             Completed: 65%             Completed: 67%             Completed: 68%             Completed: 70%             Completed: 71%             Completed: 73%             Completed: 75%             Completed: 76%             Completed: 78%             Completed: 79%             Completed: 81%             Completed: 82%             Completed: 84%             Completed: 85%             Completed: 87%             Completed: 89%             Completed: 90%             Completed: 92%             Completed: 93%             Completed: 95%             Completed: 96%             Completed: 98%             Completed: 100%                 Output Size: 728090428 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 3.954250 seconds
+
+#####
+AMD EPYC 7452 32-Core - Run 3
+2024-04-03 21:19:46
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 64
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 64 CPUs
+Compressing data...
+Completed: 1%             Completed: 3%             Completed: 4%             Completed: 6%             Completed: 7%             Completed: 9%             Completed: 10%             Completed: 12%             Completed: 14%             Completed: 15%             Completed: 17%             Completed: 18%             Completed: 20%             Completed: 21%             Completed: 23%             Completed: 25%             Completed: 26%             Completed: 28%             Completed: 29%             Completed: 31%             Completed: 32%             Completed: 34%             Completed: 35%             Completed: 37%             Completed: 39%             Completed: 40%             Completed: 42%             Completed: 43%             Completed: 45%             Completed: 46%             Completed: 48%             Completed: 50%             Completed: 51%             Completed: 53%             Completed: 54%             Completed: 56%             Completed: 57%             Completed: 59%             Completed: 60%             Completed: 62%             Completed: 64%             Completed: 65%             Completed: 67%             Completed: 68%             Completed: 70%             Completed: 71%             Completed: 73%             Completed: 75%             Completed: 76%             Completed: 78%             Completed: 79%             Completed: 81%             Completed: 82%             Completed: 84%             Completed: 85%             Completed: 87%             Completed: 89%             Completed: 90%             Completed: 92%             Completed: 93%             Completed: 95%             Completed: 96%             Completed: 98%             Completed: 100%                 Output Size: 728090428 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 4.081746 seconds
+
