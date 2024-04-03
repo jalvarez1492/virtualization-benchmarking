@@ -23,5 +23,8 @@ git clone https://github.com/jalvarez1492/virtualization-benchmarking.git
 
 ### Run the docker container with interactive shell
 ```bash
-docker run -it jalvarez1492/phoronix-test-suite-v2 bash
+docker run -it \
+  --mount type=bind,source=.,target=/cloudlab \
+  jalvarez1492/phoronix-test-suite-v2 bash
 ```
+
