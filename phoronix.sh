@@ -15,3 +15,5 @@ apt-get install unzip
 apt-get install libssl-dev
 
 apt-get install make
+
+apt-get install phoronix-test-suite
