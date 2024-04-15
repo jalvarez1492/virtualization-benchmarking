@@ -1,4 +1,4 @@
-#!/bin/bash
+echo "Starting KVM VM ... "
 
 # start libvrtd
 systemctl enable --now libvirtd
