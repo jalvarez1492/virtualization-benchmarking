@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo bash
-
 # start libvrtd
 systemctl enable --now libvirtd
 
