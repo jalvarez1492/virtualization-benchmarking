@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>kvm-npb-4</Title>
+    <LastModified>2024-04-15 21:10:32</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>Intel Core</Identifier>
+    <Hardware>Processor: 2 x Intel Core (Broadwell IBRS) @ 2.00GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 8192 MB RAM QEMU, Disk: 12GB, Graphics: Red Hat QXL paravirtual graphic card, Audio: Intel 82801FB/FBM/FR/FW/FRW, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-212-generic (x86_64), File-System: ext4, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2024-04-15 21:10:33</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/npb-1.4.5</Identifier>
+    <Title>NAS Parallel Benchmarks</Title>
+    <AppVersion>3.4</AppVersion>
+    <Arguments>ft.C</Arguments>
+    <Description>Test / Class: FT.C</Description>
+    <Scale>Total Mop/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Core</Identifier>
+        <Value>2762.80</Value>
+        <RawString>2759.38:2761.91:2767.12</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"F9X","compiler":"gfortran","compiler-options":"-O3 -march=native -pthread -lmpi_usempif08 -lmpi_mpifh -lmpi"},"install-footnote":"Open MPI 2.1.1"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

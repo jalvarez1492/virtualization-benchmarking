@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>kvm-npb-3</Title>
+    <LastModified>2024-04-15 20:50:20</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>Intel Core</Identifier>
+    <Hardware>Processor: 2 x Intel Core (Broadwell IBRS) @ 2.00GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 8192 MB RAM QEMU, Disk: 12GB, Graphics: Red Hat QXL paravirtual graphic card, Audio: Intel 82801FB/FBM/FR/FW/FRW, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-212-generic (x86_64), File-System: ext4, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2024-04-15 20:50:21</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+  </System>
+</PhoronixTestSuite>
