@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>kvm-syscall</Title>
+    <LastModified>2024-04-15 03:47:56</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>Ubuntu 18.04</Identifier>
+    <Hardware>Processor: 2 x Intel Core (Broadwell IBRS) @ 2.00GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 2048 MB RAM QEMU, Disk: 2GB, Graphics: Red Hat QXL paravirtual graphic card, Audio: Intel 82801FB/FBM/FR/FW/FRW, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-171-generic (x86_64), File-System: ext4, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2024-04-15 03:47:57</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/perf-bench-1.0.5</Identifier>
+    <Title>perf-bench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>syscall basic -l 100000000</Arguments>
+    <Description>Benchmark: Syscall Basic</Description>
+    <Scale>ops/sec</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Ubuntu 18.04</Identifier>
+        <Value>1883940</Value>
+        <RawString>1890873:1888028:1872919</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O6 -ggdb3 -funwind-tables -std=gnu11 -U_FORTIFY_SOURCE -lpthread -lrt -lm -ldl -lcrypto -lnuma"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
