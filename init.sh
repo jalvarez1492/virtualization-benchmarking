@@ -9,4 +9,6 @@ sudo dockerd
 
 docker pull phoronix/pts
 
-chmod +x phoronix_init.sh
+chmod +x phoronix.sh
+
+chmod +x kvm_init.sh
