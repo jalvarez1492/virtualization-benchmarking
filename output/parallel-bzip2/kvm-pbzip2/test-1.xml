@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>kvm-pbzip2</Title>
+    <LastModified>2024-04-18 01:32:46</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>AMD EPYC</Identifier>
+    <Hardware>Processor: 2 x AMD EPYC (with IBPB) @ 2.35GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 8192 MB RAM QEMU, Disk: 2GB, Graphics: Red Hat QXL paravirtual graphic card, Audio: Intel 82801FB/FBM/FR/FW/FRW, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-171-generic (x86_64), File-System: ext4, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2024-04-18 01:32:46</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/compress-pbzip2-1.6.1</Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments></Arguments>
+    <Description>FreeBSD-13.0-RELEASE-amd64-memstick.img Compression</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>AMD EPYC</Identifier>
+        <Value>54.11</Value>
+        <RawString>54.080805:54.214026:54.032928</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -pthread -lbz2 -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
